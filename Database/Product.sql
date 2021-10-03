@@ -1,0 +1,11 @@
+CREATE TABLE Product(
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL,
+    season VARCHAR(255) NOT NULL,
+    brand VARCHAR(255) NOT NULL,
+    price INT NOT NULL,
+    category VARCHAR(255) NOT NULL,
+    color VARCHAR(255) NOT NULL,
+    date DATE NOT NULL,
+    discount INT NOT NULL
+);
